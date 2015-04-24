@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     func generateButton(xPos: CGFloat, yPos: CGFloat, btnTag: Int) {
         
         // Declare custom button.
-        var myButton = UIButton.buttonWithType(UIButtonType.System) as UIButton
+        var myButton = UIButton.buttonWithType(UIButtonType.System) as! UIButton
         
         // Position button.
         myButton.frame = CGRectMake(
